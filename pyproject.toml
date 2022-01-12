@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "intro_stat_learning_env"
+version = "0.1.0"
+description = "Virtual environment used to work through the book Introduction to Statistical Learning"
+authors = ["Aaron W. Chen <awc33@cornell.edu>"]
+license = "GNU 3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+jupyterlab = "^3.2.6"
+numpy = "^1.22.0"
+scikit-learn = "^1.0.2"
+pandas = "^1.3.5"
+pyarrow = "^6.0.1"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
