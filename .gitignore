@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Removing poetry.lock file. It is technically a useful thing to include in the repo, but there are discussions that unless you are using something like Docker to deploy to hardware, the lockfile tends to cause problems if mixing OS and hardware. https://stackoverflow.com/questions/61037557/should-i-commit-lock-file-changes-separately-what-should-i-write-for-the-commi
+poetry.lock
